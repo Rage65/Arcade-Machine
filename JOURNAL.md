@@ -6,13 +6,19 @@
   ==================================================================
 -->
 
-This is my journal of the design and building process of **Archade Machine**.  
-You can view this journal in more detail on **Hack Club Blueprint** [here](https://blueprint.hackclub.com/projects/695).
-
-
 ## 10/18/2025 - installed linux on minipc and configured it  
 
 So far I have installed batocera Linux on a minipc, and setup the configs for my controller, installed some games, and setup parental controls to prevent kids messing with settings.  Right now I am working on writing the code for the costom gamepad that is built into the cabinet. (sorry for low image res It was taken on my chromebook)
 ![IMG_20251010_150914.jpg](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzA3NywicHVyIjoiYmxvYl9pZCJ9fQ==--aedd538fc56674d8802615ff23a38de14f46a9bb/IMG_20251010_150914.jpg)
   
+
+## 10/25/2025 - Wired up RGB lights and  made costom gamepad  
+
+I wired up an RGB LED strip from an old strip light to a 12V PSU. Currently, I have R, G, and B tied to ground, so it's white, but soon I plan to have the colors controlled by the Raspberry Pi Pico, which also handles custom inputs. Speaking of custom input,s I wired up the rpi pico to some buttons and programmed it in circutpython to act as a keyboard via the HID library. Finally I attached the screen panel with ductape![IMG_1126.HEIC](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQyNywicHVyIjoiYmxvYl9pZCJ9fQ==--da0bac346e7a4a8f24637dc256c067f96d3b5abc/IMG_1126.HEIC)
+[IMG_1129.HEIC](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQyOCwicHVyIjoiYmxvYl9pZCJ9fQ==--2a316fdbdcb90562cc26c2945177babb5bf25a9e/IMG_1129.HEIC)
+[IMG_1131.HEIC](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--48d7798611b97f2fe53e679c102b049ea8500695/IMG_1131.HEIC)
+[IMG_1124.HEIC](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQzMCwicHVyIjoiYmxvYl9pZCJ9fQ==--71285e6ff3e8d20caca7b4c53d97a195d42ec630/IMG_1124.HEIC)
+
+
+[Code for pico](https://github.com/Rage65/Arcade-Machine/blob/main/costom%20gamepad/code.py)  
 
