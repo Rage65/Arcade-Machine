@@ -14,10 +14,11 @@ So far I have installed batocera Linux on a minipc, and setup the configs for my
 
 ## 10/25/2025 - Wired up RGB lights and  made costom gamepad  
 
-I wired up an RGB LED strip from an old strip light to a 12V PSU. Currently, I have R, G, and B tied to ground, so it's white, but soon I plan to have the colors controlled by the Raspberry Pi Pico, which also handles custom inputs. Speaking of custom input,s I wired up the rpi pico to some buttons and programmed it in circutpython to act as a keyboard via the HID library. Finally I attached the screen panel with ductape![IMG_1126.HEIC](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQyNywicHVyIjoiYmxvYl9pZCJ9fQ==--da0bac346e7a4a8f24637dc256c067f96d3b5abc/IMG_1126.HEIC)
-[IMG_1129.HEIC](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQyOCwicHVyIjoiYmxvYl9pZCJ9fQ==--2a316fdbdcb90562cc26c2945177babb5bf25a9e/IMG_1129.HEIC)
-[IMG_1131.HEIC](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQyOSwicHVyIjoiYmxvYl9pZCJ9fQ==--48d7798611b97f2fe53e679c102b049ea8500695/IMG_1131.HEIC)
-[IMG_1124.HEIC](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQzMCwicHVyIjoiYmxvYl9pZCJ9fQ==--71285e6ff3e8d20caca7b4c53d97a195d42ec630/IMG_1124.HEIC)
+I wired up an RGB LED strip from an old strip light to a 12V PSU. Currently, I have R, G, and B tied to ground, so it's white, but soon I plan to have the colors controlled by the Raspberry Pi Pico, which also handles custom inputs. Speaking of custom input,s I wired up the rpi pico to some buttons and programmed it in circutpython to act as a keyboard via the HID library. Finally I attached the screen panel with ductape!
+
+![IMG_1124_preview](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQzMSwicHVyIjoiYmxvYl9pZCJ9fQ==--af6ba0263280b3ad87fe4690770e732dd5c82531/IMG_1124_preview.jpeg)
+![IMG_1126_preview](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQzNCwicHVyIjoiYmxvYl9pZCJ9fQ==--2b1d4daaa4224fa0e2c7100ee5d7dae1c7b77ffd/IMG_1126_preview.jpeg)![IMG_1131_preview](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQzMiwicHVyIjoiYmxvYl9pZCJ9fQ==--92d5744bed098e52a51ba381d75fe9dfafb2e287/IMG_1131_preview.jpeg)
+![IMG_1129_preview](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQzMywicHVyIjoiYmxvYl9pZCJ9fQ==--d4352e5dae4f8b6d9ad64612963b258abd0fd735/IMG_1129_preview.jpeg)
 
 
 [Code for pico](https://github.com/Rage65/Arcade-Machine/blob/main/costom%20gamepad/code.py)  
